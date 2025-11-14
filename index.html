@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Francisco Download - Independent SF Tech News & Policy</title>
+    
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/BvNmM8tk/favicon.png">
+
+    <meta name="description" content="San Francisco Download provides independent SF tech news, policy analysis, and coverage of Bay Area culture. Kevin Chao, Editor.">
+    <meta name="keywords" content="San Francisco Download, SF Download, San Francisco tech news, Kevin Chao, Bay Area Journalism, SF Policy">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="San Francisco Download - Media Profile">
+    <meta property="og:description" content="Independent journalism covering the collision of technology, policy, and culture in San Francisco.">
+    <meta property="og:image" content="https://i.postimg.cc/vHM3FLfw/Image-qxo9ttqxo9ttqxo9.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Slate-900 */
+        }
+        .action-button, .social-icon { transition: all 0.2s ease-in-out; }
+        .action-button:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); }
+        .social-icon:hover { transform: translateY(-2px); color: #3b82f6; }
+        .content-card { transition: all 0.3s ease-in-out; }
+        .content-card:hover { transform: translateY(-4px); background-color: #1e293b; }
+        
+        /* Rocket Animation */
+        .animated-border-card { position: relative; overflow: hidden; }
+        .rocket-border { position: absolute; background-color: #3b82f6; box-shadow: 0 0 10px #3b82f6; z-index: 10; }
+        
+        .rocket-top { top: 0; left: -100%; width: 100%; height: 3px; animation: rocket-horizontal 4s linear infinite; animation-delay: 1s; }
+        .rocket-right { top: -100%; right: 0; width: 3px; height: 100%; animation: rocket-vertical 4s linear infinite; }
+        .rocket-bottom { bottom: 0; left: 100%; width: 100%; height: 3px; animation: rocket-horizontal-reverse 4s linear infinite; animation-delay: 3s; }
+        .rocket-left { top: 100%; left: 0; width: 3px; height: 100%; animation: rocket-vertical-reverse 4s linear infinite; animation-delay: 2s; }
+
+        @keyframes rocket-horizontal { 0% { left: -100%; } 100% { left: 100%; } }
+        @keyframes rocket-horizontal-reverse { 0% { left: 100%; } 100% { left: -100%; } }
+        @keyframes rocket-vertical { 0% { top: -100%; } 100% { top: 100%; } }
+        @keyframes rocket-vertical-reverse { 0% { top: 100%; } 100% { top: -100%; } }
+
+        /* Iframe Background Fix */
+        #iframe-bg {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            border: 0; opacity: 0.15; pointer-events: none; filter: grayscale(100%);
+        }
+    </style>
+</head>
+<body class="text-slate-200">
+
+    <div class="w-full max-w-5xl mx-auto px-4 py-8 sm:py-12">
+        
+        <section class="animated-border-card text-center p-8 sm:p-12 bg-slate-800 rounded-2xl shadow-2xl relative">
+            
+            <iframe id="iframe-bg" src="https://sanfranciscodownload.com/" title="Background Site"></iframe>
+
+            <span class="rocket-border rocket-top"></span>
+            <span class="rocket-border rocket-right"></span>
+            <span class="rocket-border rocket-bottom"></span>
+            <span class="rocket-border rocket-left"></span>
+
+            <div class="relative z-20">
+                <img class="w-32 h-32 rounded-full shadow-lg border-0 border-white mx-auto bg-white p-0.5" 
+                     src="https://i.postimg.cc/BvNmM8tk/favicon.png" 
+                     alt="San Francisco Download Logo">
+                
+                <div class="flex items-center justify-center mt-6">
+                    <h5 class="text-1xl font-extrabold text-white">San Francisco Download</h5>
+                    <span class="ml-2 text-blue-500" title="Verified Media">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a.75.75 0 00-1.06-1.06L9 10.94l-1.72-1.72a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.06 0l4.25-4.25z" clip-rule="evenodd" /></svg>
+                    </span>
+                </div>
+                <p class="text-[13px] text-slate-300 font-medium mt-1">
+                    The Pulse of SF Tech News & Policy Analysis
+                </p>
+                
+                <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+                    <a href="mailto:editorialteam@sanfranciscodownload.com" 
+                       class="action-button bg-blue-700 text-white font-bold text-sm py-3 px-4 rounded-full flex items-center justify-center w-full sm:w-auto hover:bg-blue-600">
+                        <i class="fas fa-envelope mr-2"></i> Contact Editor
+                    </a>
+                    <a href="https://sanfranciscodownload.com" target="_blank"
+                       class="action-button bg-slate-700 text-slate-200 font-bold text-sm py-3 px-4 rounded-full flex items-center justify-center w-full sm:w-auto hover:bg-slate-600">
+                        <i class="fas fa-globe mr-2"></i> Visit Website
+                    </a>
+                    <a href="#" id="downloadVcardBtn" 
+                       class="action-button bg-slate-700 text-slate-200 font-bold text-sm py-3 px-4 rounded-full flex items-center justify-center w-full sm:w-auto hover:bg-slate-600">
+                        <i class="fas fa-address-book mr-2"></i> Save Contact
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <main class="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="lg:col-span-2 space-y-8">
+                
+                <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+                    <h2 class="text-2xl font-bold text-white mb-4">About The Publication</h2>
+                    <p class="text-base leading-relaxed text-slate-300">
+                        <strong class="text-white">San Francisco Download</strong> is an independent Bay Area publication built for people who live and work in the region’s tech, political, and cultural crosscurrents. We deliver sharp, no-nonsense reporting on <strong>San Francisco tech news</strong>, City Hall politics, and the companies rewriting the future from SoMa to Sand Hill Road.
+                    </p>
+                </div>
+                
+                <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+                    <h2 class="text-2xl font-bold text-white mb-5">Coverage Areas</h2>
+                    <div class="space-y-6">
+                         <div class="flex items-start">
+                             <i class="fas fa-microchip text-blue-500 w-6 text-center mt-1"></i>
+                             <div class="ml-4">
+                                 <h3 class="font-semibold text-white text-base">SF Tech News</h3>
+                                 <p class="text-sm text-slate-300">Breaking news and analysis on startups, AI trends, and Silicon Valley innovation.</p>
+                             </div>
+                         </div>
+                        <div class="flex items-start">
+                           <i class="fas fa-university text-blue-500 w-6 text-center mt-1"></i>
+                           <div class="ml-4">
+                                 <h3 class="font-semibold text-white text-base">Policy & Politics</h3>
+                                 <p class="text-sm text-slate-300">How City Hall decisions and regulations impact the tech ecosystem.</p>
+                             </div>
+                        </div>
+                        <div class="flex items-start">
+                           <i class="fas fa-users text-blue-500 w-6 text-center mt-1"></i>
+                           <div class="ml-4">
+                                 <h3 class="font-semibold text-white text-base">Civic Life & Culture</h3>
+                                 <p class="text-sm text-slate-300">Reporting on housing, labor, and the changing culture of the Bay Area.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-blue-500">
+                    <h2 class="text-2xl font-bold text-white mb-5">Editorial Mission</h2>
+                    <div class="space-y-5">
+                        <blockquote class="text-base text-slate-300 italic border-l-4 border-blue-400 pl-4">
+                            "We report on tech not as a siloed beat, but as a force transforming every sector of public life. Our goal is to foster an informed public."
+                        </blockquote>
+                        <div class="flex items-start pt-2">
+                             <i class="fas fa-shield-alt text-blue-500 w-6 text-center mt-1"></i>
+                             <div class="ml-4">
+                                 <h3 class="font-semibold text-white text-base">Independence</h3>
+                                 <p class="text-sm text-slate-300">We maintain strict editorial independence from all corporate and political interests.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-1 space-y-8">
+                
+                <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-slate-500">
+                    <h2 class="text-2xl font-bold text-white mb-4">Contact Us</h2>
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex items-center mb-1">
+                                <i class="fas fa-user-edit text-slate-400 w-5 text-center"></i>
+                                <span class="ml-3 text-sm font-medium text-slate-400">Editor Direct</span>
+                            </div>
+                            <a href="mailto:chao@sanfranciscodownload.com" class="block pl-8 text-slate-200 font-semibold text-sm break-all" style="font-size: 12px;">
+                                chao@sanfranciscodownload.com
+                            </a>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center mb-1">
+                                <i class="fas fa-inbox text-slate-400 w-5 text-center"></i>
+                                <span class="ml-3 text-sm font-medium text-slate-400">General Inquiries</span>
+                            </div>
+                            <a href="mailto:editorialteam@sanfranciscodownload.com" class="block pl-8 text-slate-200 font-semibold text-sm break-all" style="font-size: 10px;">
+                                editorialteam@sanfranciscodownload.com
+                            </a>
+                        </div>
+
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-slate-400 w-5 text-center pt-1"></i>
+                            <span class="ml-3 text-sm text-slate-300">Mountain View, CA, USA</span>
+                        </div>
+                    </div>
+
+                    <hr class="my-6 border-slate-600">
+                    
+                    <div class="text-center">
+                        <h3 class="text-lg font-semibold text-white mb-2">Scan Contact</h3>
+                        <div class="flex justify-center">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=BEGIN%3AVCARD%0AVERSION%3A3.0%0AN%3AChao%3BKevin%3B%3B%3B%0AFN%3A Kevin%20Chao%0ATITLE%3AEditor%0AORG%3ASan%20Francisco%20Download%0AEMAIL%3Achao%40sanfranciscodownload.com%0AURL%3Ahttps%3A%2F%2Fsanfranciscodownload.com%0AADR%3BTYPE%3DWORK%3A%3B%3BMountain%20View%3BCA%3B%3BUSA%0AEND%3AVCARD" 
+                                 alt="Kevin Chao QR Code" 
+                                 class="rounded-lg bg-white p-2 w-40 h-40">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-card bg-slate-800 p-6 sm:p-8 rounded-2xl shadow-md border-t-4 border-t-slate-500">
+                    <h2 class="text-2xl font-bold text-white mb-4">Editor Profile</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-user-tie text-slate-400 w-5 text-center pt-1"></i>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium text-slate-400">Editor-in-Chief</h3>
+                                <p class="font-semibold text-slate-200">Kevin Chao</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-calendar-alt text-slate-400 w-5 text-center pt-1"></i>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium text-slate-400">Established</h3>
+                                <p class="font-semibold text-slate-200">2022</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-globe-americas text-slate-400 w-5 text-center pt-1"></i>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium text-slate-400">Focus Region</h3>
+                                <p class="font-semibold text-slate-200">San Francisco Bay Area</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    
+    <footer class="text-center text-sm text-slate-400 pt-8 pb-8 flex flex-col items-center">
+        <div class="flex items-center justify-center space-x-6 text-slate-400 order-1 mb-4">
+            <a href="https://facebook.com/sanfranciscodownload" target="_blank" class="social-icon"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="https://www.linkedin.com/company/san-francisco-download/" target="_blank" class="social-icon"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="https://www.youtube.com/@SanFranciscoDownload" target="_blank" class="social-icon"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+        <div class="order-2">
+            &copy; 2025 <a href="https://sanfranciscodownload.com" class="font-semibold text-blue-500 hover:underline">San Francisco Download</a>. All Rights Reserved.
+        </div>
+        <div class="order-3 mt-3 text-xs">
+            Developed by <a href="https://visernic.com" target="_blank" class="text-blue-500/80 font-semibold hover:text-blue-400">Visernic Limited</a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const downloadButton = document.getElementById('downloadVcardBtn');
+            if (downloadButton) {
+                const vCardData = `BEGIN:VCARD
+VERSION:3.0
+N:Chao;Kevin;;;
+FN:Kevin Chao
+TITLE:Editor
+ORG:San Francisco Download
+EMAIL;TYPE=WORK:chao@sanfranciscodownload.com
+EMAIL;TYPE=WORK:editorialteam@sanfranciscodownload.com
+URL:https://sanfranciscodownload.com
+ADR;TYPE=WORK:;;Mountain View;CA;;USA
+NOTE:SF Tech News & Policy Analysis
+END:VCARD`;
+                try {
+                    const blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8' });
+                    const url = URL.createObjectURL(blob);
+                    downloadButton.href = url;
+                    downloadButton.setAttribute('download', 'Kevin_Chao_Profile.vcf');
+                } catch (e) {
+                    console.error("vCard creation failed.", e);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
